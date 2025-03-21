@@ -1,3 +1,92 @@
 name: xChrono
 main: org.eldrygo.XChrono
 version: 0.0.01
+commands:
+  xchrono:
+    description: "xChrono plugin main command."
+    aliases: ["xcn"]
+permissions:
+  xchrono.chrono:
+    description: "Permission to use the xChrono chronometer manager command."
+    default: false
+    children:
+      xchrono.chrono.create:
+        description: "Permission to use: /xchrono chrono create"
+        default: false
+      xchrono.chrono.delete:
+        description: "Permission to use: /xchrono chrono delete"
+        default: false
+      xchrono.chrono.set:
+        description: "Permission to use: /xchrono chrono set"
+        default: false
+      xchrono.chrono.add:
+        description: "Permission to use: /xchrono chrono add"
+        default: false
+      xchrono.chrono.reduce:
+        description: "Permission to use: /xchrono chrono reduce"
+        default: false
+      xchrono.chrono.play:
+        description: "Permission to use: /xchrono chrono play"
+        default: false
+      xchrono.chrono.pause:
+        description: "Permission to use: /xchrono chrono pause"
+        default: false
+      xchrono.chrono.reset:
+        description: "Permission to use: /xchrono chrono reset"
+        default: false
+      xchrono.chrono.list:
+        description: "Permission to use: /xchrono chrono list"
+        default: false
+  xchrono.split:
+    description: "Permission to use the xChrono split manager command."
+    default: false
+    children:
+      xchrono.split.create:
+        description: "Permission to use: /xchrono split create"
+        default: false
+      xchrono.split.delete:
+        description: "Permission to use: /xchrono split delete"
+        default: false
+      xchrono.split.setdisplay:
+        description: "Permission to use: /xchrono split setdisplay"
+        default: false
+      xchrono.split.set:
+        description: "Permission to use: /xchrono split set"
+        default: false
+      xchrono.split.unset:
+        description: "Permission to use: /xchrono split unset"
+        default: false
+      xchrono.split.list:
+        description: "Permission to use: /xchrono split list"
+        default: false
+  xchrono.timer:
+    description: "Permission to use the xChrono timer manager command."
+    default: false
+    children:
+      xchrono.timer.create:
+        description: "Permission to use: /xchrono timer create"
+        default: false
+      xchrono.timer.delete:
+        description: "Permission to use: /xchrono timer delete"
+        default: false
+      xchrono.timer.set:
+        description: "Permission to use: /xchrono timer set"
+        default: false
+      xchrono.timer.add:
+        description: "Permission to use: /xchrono timer add"
+        default: false
+      xchrono.timer.reduce:
+        description: "Permission to use: /xchrono timer reduce"
+        default: false
+      xchrono.timer.play:
+        description: "Permission to use: /xchrono timer play"
+        default: false
+      xchrono.timer.pause:
+        description: "Permission to use: /xchrono timer pause"
+        default: false
+      xchrono.timer.reset:
+        description: "Permission to use: /xchrono timer reset"
+        default: false
+      xchrono.timer.list:
+        description: "Permission to use: /xchrono timer list"
+        default: false

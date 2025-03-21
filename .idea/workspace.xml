@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7ff36ec-e552-460f-93a9-1b64f263aea4" name="Changes" comment="🌱 Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+    <list default="true" id="e7ff36ec-e552-460f-93a9-1b64f263aea4" name="Changes" comment="📄 Added plugin.yml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Handlers/XChronoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/ChronometerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/DataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/SplitManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/TimerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Models/Chronometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Models/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Models/SplitDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Models/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/chronometers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/splits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/timers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/eldrygo/XChrono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/eldrygo/XChrono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +39,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "9bff87ff",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;9bff87ff&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2uSMGtUG6FxpezUY49jgIb7udLv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +54,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/david/Desktop",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,11 +78,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742252882182</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="📄 Added plugin.yml">
+      <option name="closed" value="true" />
+      <created>1742253070673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742253070673</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Initial Commit" />
+    <MESSAGE value=" Added plugin.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Added plugin.yml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/eldrygo/Managers/ChronometerManager.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

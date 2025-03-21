@@ -1,0 +1,12 @@
+{
+  "timer1": {
+    "type": "global",
+    "time": 3600,
+    "active": true
+  },
+  "timer2": {
+    "type": "player",
+    "time": 1800,
+    "active": false
+  }
+}

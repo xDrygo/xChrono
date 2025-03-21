@@ -1,0 +1,59 @@
+prefix: "#9BFF87&lx&r&lChrono &8»&r"
+
+commands:
+  chrono:
+    not_subcommand: ""
+    not_found: "%id%"
+    player_not_found: "%player%"
+    usage: ""
+    create:
+      not_args: ""
+      success: "%id%"
+    delete:
+      not_args: ""
+      success: "%id%"
+    set:
+      not_args: ""
+      success: "%id%"
+    add:
+      not_args: ""
+      success: "%id%"
+    reduce:
+      not_args: ""
+      success: "%id%"
+    play:
+      not_args: ""
+      success: "%id%"
+    pause:
+      not_args: ""
+      success: "%id%"
+    reset:
+      not_args: ""
+      success: "%id%"
+      player:
+        success: "%player% %id%"
+    list:
+      empty: ""
+      header: ""
+  split:
+    not_subcommand: ""
+    usage: ""
+    create:
+      not_args: ""
+    delete:
+      not_args: ""
+    setdisplay:
+      not_args: ""
+    set:
+      not_args: ""
+    unset:
+      not_args: ""
+    list:
+      empty: ""
+      header: ""
+  timer:
+    not_subcommand: ""
+    usage: ""
+error:
+  unknown_command: "%prefix% #FF0000🚫 Unknown command. &7Use &f/xchrono help &7to see the list of commands."
+  no_permission: "%prefix% #FF0000🚫 You have no permission to use this command."

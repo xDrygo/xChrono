@@ -1,0 +1,12 @@
+{
+  "split1": {
+    "type": "global",
+    "linkedTimer": "timer1",
+    "time": 15
+  },
+  "split2": {
+    "type": "player",
+    "linkedTimer": "timer2",
+    "time": 25
+  }
+}

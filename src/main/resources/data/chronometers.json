@@ -1,0 +1,12 @@
+{
+  "chrono1": {
+    "type": "global",
+    "time": 120,
+    "started": true
+  },
+  "chrono2": {
+    "type": "player",
+    "time": 300,
+    "started": false
+  }
+}
